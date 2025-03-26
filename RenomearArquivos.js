@@ -1,8 +1,8 @@
 const fs = require('fs');
 const path = require('path');
 const hoje = new Date();
-const folderPath = 'H:/Enviar/ATENDIMENTO COM DR. LUIZ JUNIOR_'; // Substitua pelo caminho da sua pasta
-const baseName = 'Foto_Pref.catarina.'; // Nome base dos arquivos
+const folderPath = 'C:/Users/Carlos Mota Pro/Downloads/Musicas de Pascoa'; // Substitua pelo caminho da sua pasta
+const baseName = 'PascoaMusica'; // Nome base dos arquivos
 
 fs.readdir(folderPath, (err, files) => {
     if (err) {
